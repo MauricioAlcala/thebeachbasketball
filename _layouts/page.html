@@ -1,43 +1,35 @@
 <!DOCTYPE html>
-<html lang="es-mx">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  {% seo %}
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png.webp" rel="icon">
-  <link href="assets/img/apple-touch-icon.png.webp" rel="apple-touch-icon">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.min.css">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+   {% include head.html %}
 </head>
-<body>
-  {% include headerfixe.html %}
-  <main id="main">
-    {% include breadcrumbs.html %}
-    <section class="inner-page">
-      <div class="container">
-        {{ content }}
+
+<body class="game_info" data-spy="scroll" data-target=".header">
+   <!-- LOADER -->
+   <div id="preloader">
+      <img class="preloader" src="images/loading-img.gif" alt="">
+   </div>
+   <!-- END LOADER -->
+   <section id="top">
+      {% include header.html %}
+      <div class="inner-page-banner">
+         <div class="container">
+         </div>
       </div>
-    </section>
-  </main><!-- End #main -->
-  {% include footer.html %}
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-chevron-up"></i></a>
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.min.js"></script>
-  {% include facebook-messanger.html %}
+      <div class="inner-information-text">
+         <div class="container">
+            <h3>Contact</h3>
+            <ul class="breadcrumb">
+               <li><a href="index.html">Home</a></li>
+               <li class="active">Contact</li>
+            </ul>
+         </div>
+      </div>
+   </section>
+   <section id="contant" class="contant main-heading team">
+      {{ content }}
+   </section>
+   {% include footer.html %}
 </body>
+
 </html>
