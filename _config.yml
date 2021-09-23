@@ -1,0 +1,46 @@
+# set JEKYLL_ENV=production | bundle exec jekyll build
+title: The Beach
+email: contacto@thebeachbasketball.com
+phone: 661
+address: Rosarito
+description: >- # this means to ignore newlines until "baseurl:"
+  Creemos en el poder de la web
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "thebeachbasketball.com" # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: 
+twitter_username: 
+facebook_username:  
+instagram_username:   
+youtube_username:  
+tiktok_username: 
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      lang: "es"
+      lazy: true
+      image:
+        path: /img/og-image.webp
+        height: 347
+        width: 663
+      author: benjamin
