@@ -21,10 +21,10 @@
      background-image:url('../images/main-slider-img1.jpg');
 }
  .darkerskyblue {
-     background-image:url('../images/bg1.png');
+     background-image:url('../images/banner.jpg');
 }
  .deepskyblue {
-     background-image:url('../images/bg1.png');
+     background-image:url('../images/banner.jpg');
 }
  .carousel-indicators {
      bottom: 0;
@@ -145,7 +145,7 @@
      width: 40px;
      background: none;
      border: 1px solid #fff;
-     color: #fff;
+     color: #e80c73;
      border-radius: 100%;
      text-align: center;
      line-height: 40px;
@@ -169,8 +169,8 @@
      width: 100%;
 }
  .social-icons li a:hover,.social-icons li a:focus {
-     border-color:#d8302f;
-    background:#d8302f;
+     border: color #0eb7e6;;
+    background:#0eb7e6;
     color:#fff !important;
 }
  .login {
