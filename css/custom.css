@@ -18,13 +18,13 @@
      padding: 10px 15px;
 }
  .skyblue {
-     background-image:url('../images/banner.jpg');
+     background-image:url('../images/the-beach-banner.jpg');
 }
  .darkerskyblue {
-     background-image:url('../images/banner.jpg');
+     background-image:url('../images/the-beach-banner.jpg');
 }
  .deepskyblue {
-     background-image:url('../images/banner.jpg');
+     background-image:url('../images/the-beach-banner.jpg');
 }
  .carousel-indicators {
      bottom: 0;
@@ -957,7 +957,7 @@
      float: left;
      width: 100%;
      min-height: 500px;
-     background-image: url('../images/banner.jpg');
+     background-image: url('../images/the-beach-banner.jpg');
      background-position: center center;
      background-repeat: no-repeat;
      background-size: cover;
