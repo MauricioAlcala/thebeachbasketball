@@ -619,7 +619,7 @@
 }
  footer#footer {
      min-height: auto;
-     background: #111;
+     background: #0eb7e6;
      float: left;
      width: 100%;
      padding: 0;
@@ -1161,12 +1161,14 @@ section#contant h4 {
      line-height: normal;
      margin-top: 0;
 }
- .main-heading.sytle-2 h2::before, .main-heading.sytle-2 h2::after {
+
+    .main-heading.sytle-2 h2::before, .main-heading.sytle-2 h2::after {
      content: "";
      width: 86px;
      top: 50%;
      position: absolute;
-     border-bottom: 4px solid #1b73cd;
+     border-bottom: 4px solid #0eb7e6;
+
 }
  .main-heading.sytle-2 h2::before {
      right: 100%;
@@ -1219,7 +1221,7 @@ section#contant h4 {
      left: auto;
      height: 100%;
      line-height: 58px;
-     background: #d8302f;
+     background: #e80c73;
      color: #fff;
      width: 48px;
      border: 0;
@@ -1243,7 +1245,7 @@ section#contant h4 {
      position: absolute;
      bottom: 100%;
      left: 0;
-     background: #d8302f;
+     background: #e80c73;
      z-index: 1;
      padding: 3px 20px 2px;
      text-transform: capitalize;
@@ -1258,7 +1260,7 @@ section#contant h4 {
     top: 1px;
     width: 0;
     height: 0;
-    border-bottom: 30px solid #d8302f;
+    border-bottom: 30px solid #e80c73;
     border-right: 20px solid transparent;
 }
  .team-column.style-2 .overlay {
@@ -1361,7 +1363,7 @@ section#contant h4 {
      display: none;
 }
  button.button {
-     background: #1c72ce;
+     background: #e80c73;
      color: #fff;
      border: none;
      padding: 6px 20px;
@@ -1468,7 +1470,7 @@ body section#contant .post-info span h4 {
 }
  .btn {
      float: left;
-     background: #d8302f;
+     background: #e80c73;
      color: #fff;
      padding: 10px 20px;
      font-size: 15px;
@@ -1579,7 +1581,7 @@ body section#contant .post-info span h4 {
      width:100%;
 }
  #contactform ul li input.thbg-color {
-     background: #d8302f;
+     background: #e80c73;
      border: none;
      color: #fff;
      text-transform: uppercase;
@@ -1588,7 +1590,7 @@ body section#contant .post-info span h4 {
      transition:ease all 0.5s;
 }
  #contactform ul li input.thbg-color:hover,#contactform ul li input.thbg-color:focus {
-     background:#111;
+     background:#0eb7e6;
 }
  section#contant .blog-sidebar div.category-menu ul li:last-child {
      border-bottom:none;
