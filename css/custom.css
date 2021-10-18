@@ -619,7 +619,7 @@
 }
  footer#footer {
      min-height: auto;
-     background: #0eb7e6;
+     background: #111;
      float: left;
      width: 100%;
      padding: 0;
@@ -815,7 +815,7 @@
  section.main-heading h2::after {
      width: 50px;
      height: 4px;
-     background: #d8302f;
+     background: #e80c73;
      margin: 15px auto 0;
      display: block;
      position: relative;
@@ -943,7 +943,7 @@
      min-height: 45px;
      line-height: 45px;
      border-top: solid #222 1px;
-     background: #111;
+     background: #0eb7e6;
      color: #fff;
 }
  .footer-bottom p {
@@ -1294,8 +1294,8 @@ section#contant h4 {
  .social-icons.style-4 li a {
      height: 40px;
      width: 40px;
-     background:#0eb7e6;
-     border: 1px solid #fff;
+     background:#e80c73;
+     border: 1px solid #e80c73;
      color: #fff;
      border-radius: 100%;
      text-align: center;
@@ -1511,7 +1511,7 @@ body section#contant .post-info span h4 {
      background: #f0f0f0;
 }
  .search-bar-blog form button {
-     background: #222;
+     background: #0eb7e6;
      border: none;
      padding: 4px 11px;
      float: right;
