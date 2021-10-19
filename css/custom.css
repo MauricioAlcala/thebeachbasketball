@@ -143,9 +143,9 @@
  .social-icons li a {
      height: 40px;
      width: 40px;
-     background: none;
+     background: #e80c73;
      border: 1px solid #fff;
-     color: #e80c73;
+     color: #fff;
      border-radius: 100%;
      text-align: center;
      line-height: 40px;
