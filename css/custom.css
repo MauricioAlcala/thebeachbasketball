@@ -79,7 +79,7 @@
  .item {
      display: none;
      position: relative;
-     .transition(s ease-in-out left);
+     transition(s ease-in-out left);
 }
  .slider-contant h3 {
      font-size: 58px;
@@ -633,6 +633,9 @@
      width: 100%;
      padding: 50px 0 25px;
      background: #fff;
+     
+    
+     
 }
  #sidebar {
      float: left;
@@ -1179,7 +1182,7 @@ section#contant h4 {
  .theme-padding.middle-bg {
      padding-top: 100px;
      padding-bottom: 100px;
-     background-image: url(../images/sport-mate.png);
+     background-image: url(../images/fondo-basket.jpg);
      background-repeat: no-repeat;
      background-position: top center;
      position: relative;
