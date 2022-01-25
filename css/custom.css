@@ -1392,7 +1392,7 @@ section#contant h4 {
      position: relative;
 }
  .feature-img {
-     float: left;
+     float: right;
      width: 100%;
      position: relative;
 }

@@ -160,7 +160,7 @@ h6 a:hover {
 }
 
 a {
-	color: #fff;
+	color: #0eb7e6;
 	text-decoration: none;
 	outline: none;
 }
@@ -2078,7 +2078,7 @@ aside#sidebar .team-btw-match ul li.vs span {
 	color: #999 !important;
 	margin: 0 !important;
 	padding: 0 !important;
-	line-height: 1 !important:
+	line-height: 1 !important;
 }
 
 .stat-wrap p {
