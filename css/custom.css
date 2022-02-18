@@ -1555,7 +1555,7 @@ body section#contant .post-info span h4 {
  .contact-info {
      float: left;
      width: 100%;
-     background: #f8f8f8;
+     background: #0eb7e6;
      border: solid #ccc 1px;
      padding: 32px 35px 30px 35px;
      text-align: left;
@@ -1628,7 +1628,7 @@ body section#contant .post-info span h4 {
  section#contant p strong {
      float: left;
      width: 100%;
-     margin-bottom: 5px;
+     margin-bottom: 5px;  
 }
  .kode-team-network {
      float: left;
