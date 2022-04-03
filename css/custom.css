@@ -18,13 +18,13 @@
      padding: 10px 15px;
 }
  .skyblue {
-     background-image:url('../images/the-beach-banner.jpg');
+     background-image:url('../images/basket-ball-header.jpg');
 }
  .darkerskyblue {
-     background-image:url('../images/the-beach-banner.jpg');
+     background-image:url('../images/basket-ball-header.jpg');
 }
  .deepskyblue {
-     background-image:url('../images/the-beach-banner.jpg');
+     background-image:url('../images/basket-ball-header.jpg');
 }
  .carousel-indicators {
      bottom: 0;
@@ -211,6 +211,7 @@
      position: relative;
 }
  .menu {
+     
      float: left;
      width: 100%;
      min-height: auto;
@@ -302,7 +303,7 @@
  .navbar.navbar-inverse ul.nav.navbar-nav li a {
      float: left;
      padding: 28px 18px 26px;
-     color: #222;
+     color: rgb(255, 255, 255);
      font-weight: 500;
      font-size: 16px;
 }
@@ -552,7 +553,7 @@
  .right-match-time {
      text-align: center;
      padding: 63px 0 62px;
-     background: url('../images/match-start-img.png');
+     background: url('../images/basket-ball-header.jpg');
      background-size: cover;
      color: #fff;
      background-repeat: no-repeat;
@@ -960,7 +961,7 @@
      float: left;
      width: 100%;
      min-height: 500px;
-     background-image: url('../images/the-beach-banner.jpg');
+     background-image: url('../images/basket-ball-header.jpg');
      background-position: center center;
      background-repeat: no-repeat;
      background-size: cover;

@@ -1,7 +1,7 @@
 # set JEKYLL_ENV=production | bundle exec jekyll build
 title: Rosarito The Beach Basketball
 email: <a href= "mailto:thebeachbasketball@gmail.com">thebeachbasketball@gmail.com</a>
-phone: <a href= "tel:+1 619 994 1944>1 619 994 1944</a>
+phone: <a href="tel:+1 619 994 1944">+1 619 994 1944</a>
 address: <a href= "https://goo.gl/maps/AyDB7CRvuDRabumv8"> Auditorio Municipal Ernesto Ruffo Appel, Hacienda Floresta del Mar, 22703 Rosarito, B.C</a>
 description: >- # this means to ignore newlines until "baseurl:"
   Creemos en el poder de la web
